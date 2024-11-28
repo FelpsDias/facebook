@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<style>
+    *{
+        gap: 15px;
+    }
+    .content {
+        display: flex;
+        width: 90vw;
+        /* 90% da largura da viewport */
+        max-width: 100%;
+        /* máxima largura */
+        flex-direction: column;
+        margin: auto;
+        
+    }
+
+    .spaceLogo img {
+     width: 65px;
+        max-width: 150px;
+        /* largura máxima da logo */
+        height: auto;
+        /* manter proporção */
+    }
+    .spaceLogo{
+        display: flex;
+        align-items: center;
+    }
+    .input-group-text {
+        width: 100%;
+    }
+
+    .btn-block {
+        width: 100%;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: right;
+    }
+    .navBar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgba(50, 111, 182, 0.801);
+    }
+    input{
+        text-align: right;
+    }
+    .input-group-text { width: 100%; text-align: left; }
+    .metaImg{
+        width: 30px;
+    }
+    footer{
+        font-family: helvetica;
+        
+    }
+    .logoMeta{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <main class="content ">
+        <nav class="navBar">
+            <div class="idioma">Português (Brasil)</div>
+            <div class="spaceLogo"><img src="facebook (2).png" alt=""></div>
+        </nav>
+        <form action="">
+            <input type="email " name="" id="" placeholder="Numero do celular ou email" class="input-group-text">
+            <input type="password" name="" id="" placeholder="Senha" class="input-group-text">
+            <button class="enviar btn btn-primary btn-lg btn-block">Entrar</button>
+            <a href="">Esqueceu a senha?</a>
+        </form>
+        <footer>
+            <div class="newConta "><button class="btn btn-outline-primary btn-block">Criar nova conta</button></div>
+            <hr>
+            <div class="metaLogo"><span class="logoMeta"><img src="meta.png" alt="" 
+                class="metaImg"></span></div>
+        </footer>
+    </main>
+
+</body>
+
+</html>
